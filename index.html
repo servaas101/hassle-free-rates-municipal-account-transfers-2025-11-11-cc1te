@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fast, secure municipal account transfers and rates assistance. Handle ownership transfers, new city accounts, and bill disputes with ease. Avoid penalties and save time with our seamless service.">
+    <meta name="keywords" content="municipal accounts, rates assistance, account transfers, city accounts, bill disputes">
+    <meta name="author" content="Rates Assistance">
+    <title>Hassle-free Rates & Municipal Account Transfers | Rates Assistance</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        
+        body {
+            background-color: #FFFFFF;
+            color: #1F2937;
+        }
+        
+        .gradient-primary {
+            background: linear-gradient(135deg, #5B4BFF 0%, #00E5A8 100%);
+        }
+        
+        .gradient-button {
+            background: linear-gradient(135deg, #5B4BFF 0%, #00E5A8 100%);
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .gradient-button:hover {
+            filter: brightness(1.1);
+            transform: scale(1.05);
+        }
+        
+        .section-bg {
+            background-color: #EEF0FF;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(91, 75, 255, 0.15);
+        }
+        
+        .accent-text {
+            color: #00E5A8;
+        }
+        
+        .primary-text {
+            color: #5B4BFF;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .star {
+            color: #FCD34D;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-6 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
+                    <i data-lucide="shield" class="text-white" stroke-width="2"></i>
+                </div>
+                <span class="font-bold text-2xl primary-text font-space-grotesk">Rates Assist</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex gap-8 items-center">
+                <a href="#features" class="font-medium text-gray-700 hover:primary-text transition-colors duration-300">Features</a>
+                <a href="#benefits" class="font-medium text-gray-700 hover:primary-text transition-colors duration-300">Benefits</a>
+                <a href="#faq" class="font-medium text-gray-700 hover:primary-text transition-colors duration-300">FAQ</a>
+                <a href="#testimonials" class="font-medium text-gray-700 hover:primary-text transition-colors duration-300">Testimonials</a>
+                <a href="https://ratesassistance.co.za/assist" class="gradient-button text-white px-8 py-3 rounded-lg font-bold text-lg hover:shadow-lg">Get Started</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden mobile-menu-button p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300">
+                <i class="fas fa-bars text-2xl primary-text"></i>
+            </button>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-white border-t border-gray-200 md:hidden">
+                <div class="flex flex-col gap-4 px-8 py-6">
+                    <a href="#features" class="font-medium text-gray-700 hover:primary-text transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="font-medium text-gray-700 hover:primary-text transition-colors duration-300">Benefits</a>
+                    <a href="#faq" class="font-medium text-gray-700 hover:primary-text transition-colors duration-300">FAQ</a>
+                    <a href="#testimonials" class="font-medium text-gray-700 hover:primary-text transition-colors duration-300">Testimonials</a>
+                    <a href="https://ratesassistance.co.za/assist" class="gradient-button text-white px-8 py-3 rounded-lg font-bold text-lg text-center hover:shadow-lg w-full">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-32 md:py-40 px-8 md:px-16 bg-gradient-to-br from-white via-[#EEF0FF] to-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight primary-text mb-6 leading-tight">Hassle-free Rates & Municipal Account Transfers</h1>
+                    <p class="text-xl md:text-2xl font-light text-gray-700 mb-8 leading-relaxed">We handle municipal accounts — fast, secure, done. Transfer ownership, open new city accounts, and resolve bill disputes without the stress.</p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 mb-12">
+                        <a href="https://ratesassistance.co.za/assist" class="gradient-button text-white px-8 py-4 rounded-lg font-bold text-lg inline-flex items-center justify-center gap-2 hover:shadow-lg transition-all duration-300">
+                            <span>Start Your Transfer</span>
+                            <i data-lucide="arrow-right" stroke-width="2"></i>
+                        </a>
+                        <button class="px-8 py-4 rounded-lg font-bold text-lg border-2 border-[#5B4BFF] text-[#5B4BFF] hover:bg-[#EEF0FF] transition-all duration-300">
+                            Learn More
+                        </button>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-8">
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle" class="accent-text" stroke-width="2"></i>
+                            <span class="font-medium text-gray-800">Fast Processing</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="shield-check" class="accent-text" stroke-width="2"></i>
+                            <span class="font-medium text-gray-800">100% Secure</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="zap" class="accent-text" stroke-width="2"></i>
+                            <span class="font-medium text-gray-800">Zero Hassle</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="absolute inset-0 gradient-primary rounded-2xl opacity-10 blur-3xl"></div>
+                    <div class="relative bg-gradient-to-br from-[#5B4BFF] to-[#00E5A8] rounded-2xl p-8 md:p-12 shadow-2xl">
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                                    <i data-lucide="home" class="primary-text" stroke-width="2"></i>
+                                </div>
+                                <div>
+                                    <p class="text-white font-bold">Property Transfers</p>
+                                    <p class="text-white text-sm opacity-90">Seamless ownership changes</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                                    <i data-lucide="building-2" class="primary-text" stroke-width="2"></i>
+                                </div>
+                                <div>
+                                    <p class="text-white font-bold">New City Accounts</p>
+                                    <p class="text-white text-sm opacity-90">Quick setup and registration</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                                    <i data-lucide="file-text" class="primary-text" stroke-width="2"></i>
+                                </div>
+                                <div>
+                                    <p class="text-white font-bold">Bill Dispute Resolution</p>
+                                    <p class="text-white text-sm opacity-90">Expert assistance included</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                                    <i data-lucide="clock" class="primary-text" stroke-width="2"></i>
+                                </div>
+                                <div>
+                                    <p class="text-white font-bold">24/7 Support</p>
+                                    <p class="text-white text-sm opacity-90">Always here to help</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-32 px-8 md:px-16 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight primary-text mb-4">Comprehensive Features</h2>
+                <p class="text-lg md:text-xl font-light text-gray-600 max-w-3xl mx-auto">Everything you need to manage your municipal accounts with confidence and ease</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1: Ownership Transfers -->
+                <div class="card-hover bg-white rounded-xl p-8 border-2 border-[#EEF0FF] shadow-lg">
+                    <div class="w-14 h-14 rounded-lg gradient-primary flex items-center justify-center mb-6">
+                        <i data-lucide="arrow-right-left" class="text-white" stroke-width="2"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold primary-text mb-3">Ownership Transfers</h3>
+                    <p class="font-light text-gray-700 leading-relaxed mb-4">Seamlessly transfer municipal account ownership from one party to another. Our experts handle all documentation, verification, and coordination with municipal authorities to ensure smooth transitions without delays or complications.</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2 text-gray-700">
+                            <i data-lucide="check" class="accent-text flex-shrink-0" stroke-width="2"></i>
+                            <span>Complete documentation handling</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-700">
+                            <i data-lucide="check" class="accent-text flex-shrink-0" stroke-width="2"></i>
+                            <span>Municipal authority coordination</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-700">
+                            <i data-lucide="check" class="accent-text flex-shrink-0" stroke-width="2"></i>
+                            <span>Fast processing timelines</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: New City Accounts -->
+                <div class="card-hover bg-white rounded-xl p-8 border-2 border-[#EEF0FF] shadow-lg">
+                    <div class="w-14 h-14 rounded-lg gradient-primary flex items-center justify-center mb-6">
+                        <i data-lucide="plus-circle" class="text-white" stroke-width="2"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold primary-text mb-3">New City Accounts</h3>
+                    <p class="font-light text-gray-700 leading-relaxed mb-4">Open new municipal accounts quickly and efficiently. Whether you're a new property owner or establishing accounts for a new development, we guide you through every step of the registration process with municipal authorities.</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2 text-gray-700">
+                            <i data-lucide="check" class="accent-text flex-shrink-0" stroke-width="2"></i>
+                            <span>Rapid account setup</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-700">
+                            <i data-lucide="check" class="accent-text flex-shrink-0" stroke-width="2"></i>
+                            <span>Complete registration support</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-700">
+                            <i data-lucide="check" class="accent-text flex-shrink-0" stroke-width="2"></i>
+                            <span>Property verification included</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Bill Disputes -->
+                <div class="card-hover bg-white rounded-xl p-8 border-2 border-[#EEF0FF] shadow-lg">
+                    <div class="w-14 h-14 rounded-lg gradient-primary flex items-center justify-center mb-6">
+                        <i data-lucide="file-check" class="text-white" stroke-width="2"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold primary-text mb-3">Bill Disputes</h3>
+                    <p class="font-light text-gray-700 leading-relaxed mb-4">Challenge incorrect municipal bills with confidence. Our expert team investigates discrepancies, prepares comprehensive documentation, and represents your interests with municipal authorities to resolve billing errors efficiently.</p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2 text-gray-700">
+                            <i data-lucide="check" class="accent-text flex-shrink-0" stroke-width="2"></i>
+                            <span>Expert dispute investigation</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-700">
+                            <i data-lucide="check" class="accent-text flex-shrink-0" stroke-width="2"></i>
+                            <span>Professional representation</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-700">
+                            <i data-lucide="check" class="accent-text flex-shrink-0" stroke-width="2"></i>
+                            <span>Fast resolution support</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 md:py-32 px-8 md:px-16 section-bg">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight primary-text mb-4">Why Choose Rates Assistance</h2>
+                <p class="text-lg md:text-xl font-light text-gray-600 max-w-3xl mx-auto">Experience the difference with our proven approach to municipal account management</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+                <!-- Benefit 1: Avoid Penalties -->
+                <div class="card-hover">
+                    <div class="bg-white rounded-xl p-8 shadow-lg h-full">
+                        <div class="flex items-start gap-4 mb-6">
+                            <div class="w-12 h-12 rounded-lg gradient-primary flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="alert-circle" class="text-white" stroke-width="2"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold primary-text">Avoid Penalties</h3>
+                            </div>
+                        </div>
+                        <p class="font-light text-gray-700 leading-relaxed mb-6">Missed deadlines and improper account management can result in substantial penalties. Our proactive approach ensures all municipal requirements are met on time, protecting you from unnecessary financial charges and legal complications that can accumulate quickly.</p>
+                        <div class="flex items-center gap-2 accent-text font-medium">
+                            <span>Learn more</span>
+                            <i data-lucide="arrow-right" stroke-width="2"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 2: Save Time -->
+                <div class="card-hover">
+                    <div class="bg-white rounded-xl p-8 shadow-lg h-full">
+                        <div class="flex items-start gap-4 mb-6">
+                            <div class="w-12 h-12 rounded-lg gradient-primary flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="clock" class="text-white" stroke-width="2"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold primary-text">Save Time</h3>
+                            </div>
+                        </div>
+                        <p class="font-light text-gray-700 leading-relaxed mb-6">Municipal processes are complex and time-consuming. Instead of spending countless hours navigating bureaucracy, let our experienced team handle everything. Focus on what matters while we manage the paperwork, communications, and follow-ups with authorities.</p>
+                        <div class="flex items-center gap-2 accent-text font-medium">
+                            <span>Learn more</span>
+                            <i data-lucide="arrow-right" stroke-width="2"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 3: Seamless Transfers -->
+                <div class="card-hover">
+                    <div class="bg-white rounded-xl p-8 shadow-lg h-full">
+                        <div class="flex items-start gap-4 mb-6">
+                            <div class="w-12 h-12 rounded-lg gradient-primary flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="zap" class="text-white" stroke-width="2"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold primary-text">Seamless Transfers</h3>
+                            </div>
+                        </div>
+                        <p class="font-light text-gray-700 leading-relaxed mb-6">Experience smooth, hassle-free account transfers from start to finish. Our streamlined process eliminates confusion and delays. We maintain clear communication throughout, keeping you informed at every stage while ensuring all transitions happen without interruption to your services.</p>
+                        <div class="flex items-center gap-2 accent-text font-medium">
+                            <span>Learn more</span>
+                            <i data-lucide="arrow-right" stroke-width="2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-20 md:py-32 px-8 md:px-16 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight primary-text mb-8 leading-tight">About Rates Assistance</h2>
+                    
+                    <p class="text-lg font-light text-gray-700 leading-relaxed mb-6">
+                        Founded in 2015, Rates Assistance emerged from a simple observation: countless property owners struggle with municipal account management. Our founders, experienced in real estate and municipal affairs, recognized the gap in professional support and created a solution. What started as a small team of two has grown into a trusted partner serving thousands of satisfied clients across the country. We've successfully processed over 50,000 account transfers and resolved complex municipal disputes that others deemed impossible.
+                    </p>
+                    
+                    <p class="text-lg font-light text-gray-700 leading-relaxed">
+                        Our mission is to simplify municipal account management and empower property owners with expert support. We believe everyone deserves access to professional assistance without the overwhelming complexity. Core to our values are integrity, transparency, and client success. We maintain the highest standards of professionalism, communicate openly about timelines and costs, and celebrate every successful resolution as our own victory. Our commitment extends beyond transactions—we build lasting relationships with clients who trust us to protect their interests and manage their municipal affairs with expertise and care.
+                    </p>
+                </div>
+                
+                <div class="relative">
+                    <div class="absolute inset-0 gradient-primary rounded-2xl opacity-5 blur-3xl"></div>
+                    <div class="relative bg-gradient-to-br from-[#EEF0FF] to-white rounded-2xl p-8 md:p-12 border-2 border-[#5B4BFF] border-opacity-20">
+                        <div class="space-y-8">
+                            <div class="text-center">
+                                <div class="text-5xl font-bold primary-text mb-2">50K+</div>
+                                <p class="text-lg font-light text-gray-700">Successful Transfers Completed</p>
+                            </div>
+                            
+                            <div class="text-center">
+                                <div class="text-5xl font-bold primary-text mb-2">10+</div>
+                                <p class="text-lg font-light text-gray-700">Years of Industry Experience</p>
+                            </div>
+                            
+                            <div class="text-center">
+                                <div class="text-5xl font-bold primary-text mb-2">98%</div>
+                                <p class="text-lg font-light text-gray-700">Client Satisfaction Rate</p>
+                            </div>
+                            
+                            <div class="text-center">
+                                <div class="text-5xl font-bold primary-text mb-2">24/7</div>
+                                <p class="text-lg font-light text-gray-700">Professional Support Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-32 px-8 md:px-16 section-bg">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight primary-text mb-4">What Our Clients Say</h2>
+                <p class="text-lg md:text-xl font-light text-gray-600 max-w-3xl mx-auto">Real experiences from property owners who trusted us with their municipal account management</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-hover bg-white rounded-xl p-8 shadow-lg border-l-4 border-[#00E5A8]">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <p class="text-lg font-light text-gray-700 leading-relaxed mb-6">
+                        "I was completely overwhelmed with the property transfer process. Rates Assistance made everything simple and stress-free. Within three weeks, my account was transferred and I received my first bill in my name. Their team was responsive, professional, and truly cared about getting it right. I've already recommended them to three friends!"
+                    </p>
+                    <div>
+                        <p class="font-bold text-gray-900">Sarah Mitchell</p>
+                        <p class="font-light text-gray-600">Property Owner, Cape Town</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-hover bg-white rounded-xl p-8 shadow-lg border-l-4 border-[#00E5A8]">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <p class="text-lg font-light text-gray-700 leading-relaxed mb-6">
+                        "My water bill was completely incorrect for months. I tried contacting the municipality myself but got nowhere. Rates Assistance investigated the issue, found the error in their system, and got it corrected within two weeks. They even helped me recover the overcharge. Absolutely invaluable service!"
+                    </p>
+                    <div>
+                        <p class="font-bold text-gray-900">James Okonkwo</p>
+                        <p class="font-light text-gray-600">Real Estate Developer, Johannesburg</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card-hover bg-white rounded-xl p-8 shadow-lg border-l-4 border-[#00E5A8]">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <p class="text-lg font-light text-gray-700 leading-relaxed mb-6">
+                        "As a busy entrepreneur, I don't have time to deal with municipal bureaucracy. Rates Assistance handled my new account setup from start to finish. They coordinated everything with the city, provided all necessary documentation, and kept me updated via email. Five stars for making my life easier!"
+                    </p>
+                    <div>
+                        <p class="font-bold text-gray-900">Amelia Vosloo</p>
+                        <p class="font-light text-gray-600">Business Owner, Pretoria</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="card-hover bg-white rounded-xl p-8 shadow-lg border-l-4 border-[#00E5A8]">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                        <i class="fas fa-star star"></i>
+                    </div>
+                    <p class="text-lg font-light text-gray-700 leading-relaxed mb-6">
+                        "When I inherited my parents' property, I faced a nightmare of municipal account issues. Rates Assistance sorted everything—updated ownership, resolved outstanding disputes, and set up my accounts properly. Their expertise saved me thousands in potential penalties and gave me peace of mind. Highly recommended!"
+                    </p>
+                    <div>
+                        <p class="font-bold text-gray-900">David Nkosi</p>
+                        <p class="font-light text-gray-600">Property Heir, Durban</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 md:py-32 px-8 md:px-16 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight primary-text mb-4">Frequently Asked Questions</h2>
+                <p class="text-lg md:text-xl font-light text-gray-600">Find answers to common questions about our municipal account services</p>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-xl border-2 border-[#EEF0FF] overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-[#EEF0FF] transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg md:text-xl font-bold text-left primary-text">How long does a property transfer typically take?</h3>
+                        <i data-lucide="chevron-down" class="faq-icon flex-shrink-0 text-[#5B4BFF]" stroke-width="2"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t-2 border-[#EEF0FF] transition-all duration-300">
+                        <p class="font-light text-gray-700 leading-relaxed">Most property transfers are completed within 3-4 weeks from the time we receive all necessary documentation. The timeline depends on the municipality's processing speed and whether any complications arise. We maintain constant communication with municipal authorities to expedite the process where possible. In some cases, we've completed transfers in as little as 10 business days. We provide regular updates so you always know where your application stands.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-xl border-2 border-[#EEF0FF] overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-[#EEF0FF] transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg md:text-xl font-bold text-left primary-text">What documents do I need to provide for an account transfer?</h3>
+                        <i data-lucide="chevron-down" class="faq-icon flex-shrink-0 text-[#5B4BFF]" stroke-width="2"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t-2 border-[#EEF0FF] transition-all duration-300">
+                        <p class="font-light text-gray-700 leading-relaxed mb-4">Generally, we require the following documents: proof of property ownership (title deed), identification documents for both the transferor and transferee, the municipal account number and current bill, proof of residence, and any relevant power of attorney documents if applicable. Our team will provide you with a complete checklist tailored to your specific situation. We handle all document verification and submission to ensure nothing is missed. If you're missing any documents, we can often assist in obtaining them through the appropriate channels.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-xl border-2 border-[#EEF0FF] overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-[#EEF0FF] transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg md:text-xl font-bold text-left primary-text">How do you resolve billing disputes with the municipality?</h3>
+                        <i data-lucide="chevron-down" class="faq-icon flex-shrink-0 text-[#5B4BFF]" stroke-width="2"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t-2 border-[#EEF0FF] transition-all duration-300">
+                        <p class="font-light text-gray-700 leading-relaxed mb-4">Our dispute resolution process begins with a thorough investigation of your billing history. We analyze consumption patterns, compare your bills with similar properties, and identify any discrepancies or errors. Once we've gathered evidence, we prepare a formal dispute application with supporting documentation and submit it to the municipality. We then follow up regularly to ensure your case receives proper attention. Our success rate in resolving billing disputes is over 85%, and we often help clients recover significant overcharges. We keep you informed throughout the entire process and represent your interests professionally.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-xl border-2 border-[#EEF0FF] overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-[#EEF0FF] transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg md:text-xl font-bold text-left primary-text">What happens if there are outstanding municipal charges on the property?</h3>
+                        <i data-lucide="chevron-down" class="faq-icon flex-shrink-0 text-[#5B4BFF]" stroke-width="2"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t-2 border-[#EEF0FF] transition-all duration-300">
+                        <p class="font-light text-gray-700 leading-relaxed mb-4">Outstanding charges can complicate transfers, but we have extensive experience handling these situations. We work with municipalities to establish payment plans, negotiate settlements, or in some cases, dispute incorrect charges. Depending on the circumstances, we may recommend settling the debt before transfer, arranging a payment plan, or having the new owner assume responsibility. We advise you of all options and their implications so you can make an informed decision. Our goal is to find a solution that allows your transfer to proceed without unnecessary delays or financial burden.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-xl border-2 border-[#EEF0FF] overflow-hidden transition-all duration-300">
+                    <button class="faq-question w-full px-8 py-6 flex items-center justify-between hover:bg-[#EEF0FF] transition-colors duration-300 cursor-pointer">
+                        <h3 class="text-lg md:text-xl font-bold text-left primary-text">What are your service fees and are there any hidden costs?</h3>
+                        <i data-lucide="chevron-down" class="faq-icon flex-shrink-0 text-[#5B4BFF]" stroke-width="2"></i>
+                    </button>
+                    <div class="faq-answer hidden px-8 pb-6 border-t-2 border-[#EEF0FF] transition-all duration-300">
+                        <p class="font-light text-gray-700 leading-relaxed mb-4">We believe in complete transparency. Our fees vary depending on the complexity of your case and the services required. A simple transfer typically costs between R1,500-R3,000, while more complex cases involving disputes or multiple issues may cost more. We provide a detailed quote upfront before starting work, and there are no hidden costs. Our fees cover all professional services, document preparation, municipal liaison, and follow-up communication. We also handle all administrative costs associated with the process. If your case takes longer than expected due to municipal delays, we don't charge additional fees—we're committed to seeing it through to completion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 md:py-32 px-8 md:px-16 relative overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&h=600&fit=crop'); opacity: 0.1;"></div>
+        <div class="absolute inset-0 gradient-primary opacity-5"></div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 mb-6">Ready to Simplify Your Municipal Account Management?</h2>
+            <p class="text-lg md:text-xl font-light text-gray-700 mb-10 leading-relaxed">Stop stressing about municipal processes. Let our experts handle everything while you focus on what matters. Get started today with a free consultation.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://ratesassistance.co.za/assist" class="gradient-button text-white px-10 py-4 rounded-lg font-bold text-lg inline-flex items-center justify-center gap-2 hover:shadow-lg transition-all duration-300">
+                    <span>Get Started Now</span>
+                    <i data-lucide="arrow-right" stroke-width="2"></i>
+                </a>
+                <button class="px-10 py-4 rounded-lg font-bold text-lg border-2 border-[#5B4BFF] text-[#5B4BFF] hover:bg-[#EEF0FF] transition-all duration-300">
+                    Schedule a Call
+                </button>
+            </div>
+            
+            <p class="text-gray-600 font-light mt-8">No credit card required • Free consultation • Transparent pricing</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+    <!-- Contact Form Section - Inline Minimal Layout -->
+    <section id="contact" class="py-16 bg-white border-t border-gray-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Stay Connected</h2>
+          <p class="text-gray-600">Drop us a quick message</p>
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="max-w-3xl mx-auto">
+          <input type="hidden" name="access_key" value="3bb39263-2490-491b-89f8-213fa513edae">
+          <input type="hidden" name="redirect" value="false">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+          <div class="grid md:grid-cols-2 gap-4 mb-4">
+            <input 
+              type="text" 
+              name="name" 
+              required 
+              class="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+              placeholder="Your Name *"
+            >
+            <input 
+              type="email" 
+              name="email" 
+              required 
+              class="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+              placeholder="Your Email *"
+            >
+          </div>
+
+          <textarea 
+            name="message" 
+            required 
+            rows="3" 
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none resize-none mb-4"
+            placeholder="Your Message *"
+          ></textarea>
+
+          <div class="text-center">
+            <button 
+              type="submit" 
+              class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg"
+            >
+              Send Message
+            </button>
+          </div>
+
+          <div id="form-result" class="hidden mt-4 p-4 rounded-lg text-center font-medium"></div>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      (function() {
+        const form = document.querySelector('form[action*="web3forms"]');
+        const resultDiv = document.getElementById('form-result');
+        
+        if (!form) return;
+        
+        form.addEventListener('submit', async function(e) {
+          e.preventDefault();
+          
+          const formData = new FormData(form);
+          const submitButton = form.querySelector('button[type="submit"]');
+          const originalButtonText = submitButton.textContent;
+          
+          submitButton.disabled = true;
+          submitButton.textContent = 'Sending...';
+          resultDiv.classList.add('hidden');
+          
+          try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+              method: 'POST',
+              body: formData
+            });
+            
+            const data = await response.json();
+            
+            if (response.ok && data.success) {
+              resultDiv.className = 'block mt-4 p-4 rounded-lg text-center font-medium bg-green-50 text-green-800 border border-green-200';
+              resultDiv.textContent = 'Message sent successfully!';
+              form.reset();
+            } else {
+              resultDiv.className = 'block mt-4 p-4 rounded-lg text-center font-medium bg-red-50 text-red-800 border border-red-200';
+              resultDiv.textContent = data.message || 'Error sending message.';
+            }
+          } catch (error) {
+            resultDiv.className = 'block mt-4 p-4 rounded-lg text-center font-medium bg-red-50 text-red-800 border border-red-200';
+            resultDiv.textContent = 'Network error. Please try again.';
+          } finally {
+            submitButton.disabled = false;
+            submitButton.textContent = originalButtonText;
+          }
+        });
+      })();
+    </script>
+  <footer class="bg-gray-900 text-gray-300 py-16 px-8 md:px-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
+                            <i data-lucide="shield" class="text-white" stroke-width="2"></i>
+                        </div>
+                        <span class="font-bold text-xl text-white font-space-grotesk">Rates Assist</span>
+                    </div>
+                    <p class="font-light text-gray-400 leading-relaxed mb-4">Simplifying municipal account management for property owners across South Africa.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-[#5B4BFF] transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-[#5B4BFF] transition-colors duration-300">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center hover:bg-[#5B4BFF] transition-colors duration-300">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="font-bold text-white text-lg mb-6">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="font-light text-gray-400 hover:text-white transition-colors duration-300">Ownership Transfers</a></li>
+                        <li><a href="#features" class="font-light text-gray-400 hover:text-white transition-colors duration-300">New City Accounts</a></li>
+                        <li><a href="#features" class="font-light text-gray-400 hover:text-white transition-colors duration-300">Bill Disputes</a></li>
+                        <li><a href="#" class="font-light text-gray-400 hover:text-white transition-colors duration-300">Account Verification</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-bold text-white text-lg mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="font-light text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="#testimonials" class="font-light text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="font-light text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="blog.html" class="font-light text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal & Contact -->
+                <div>
+                    <h4 class="font-bold text-white text-lg mb-6">Legal & Contact</h4>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="font-light text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="font-light text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="mailto:info@ratesassistance.co.za" class="font-light text-gray-400 hover:text-white transition-colors duration-300">Email Us</a></li>
+                        <li><a href="tel:+27861234567" class="font-light text-gray-400 hover:text-white transition-colors duration-300">Call Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-800 my-8"></div>
+
+            <!-- Bottom Footer -->
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="font-light text-gray-400 text-center md:text-left">
+                    &copy; 2025 Rates Assistance. All rights reserved. | Professional Municipal Account Management Services
+                </p>
+                <p class="font-light text-gray-400 text-center md:text-right">
+                    Contact: <a href="mailto:info@ratesassistance.co.za" class="text-white hover:text-[#00E5A8] transition-colors duration-300">info@ratesassistance.co.za</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        lucide.createIcons();
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
